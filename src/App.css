@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+/*************************NAVBAR****************************/
+/*****navlinks*****/
+nav a.nav-link{
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+nav ul li{
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  font-family: 'Otomanopee One', sans-serif;
+  border-bottom: 0.1875rem solid rgba(255, 255, 255, 0);
+  color:white !important;
+}
+.navbar-nav > li > a.active,.navbar-nav > li > a.active:focus{
+  border-bottom: 0.1875rem solid rgba(128, 1, 233, 0.7);
+}
+
+.navbar-nav > li > a:hover{
+  border-bottom: 0.1875rem solid rgba(128, 1, 233, 0.7);
+}
