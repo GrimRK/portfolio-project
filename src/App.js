@@ -8,7 +8,8 @@ import Aboutme from "./components/Aboutme";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Contacts from './components/Contacts';
-
+import ProgLang from './components/ProgLang';
+import Skills from './components/Skills';
 function App() {
  return(
      <>
@@ -39,6 +40,8 @@ function App() {
     <Aboutme />
     <Education />
     <Projects />
+    <ProgLang />
+    <Skills />
     <Contacts />
     </>
  );

@@ -371,3 +371,46 @@ input.form-control{
     padding: 0 1rem;
   }
 }
+
+/*----------------------PL-------------------*/
+.programming{
+  text-align: center;
+  padding-bottom: 2rem;
+  background-color: rgb(241, 241, 241);
+
+}
+.programming .box{
+  height:4rem;
+  border: 0.01rem solid rgb(128, 1, 233);
+  border-radius: 3%;
+  padding:0.625rem;
+  margin-bottom: 1.875rem;
+  background:rgb(255, 255, 255);  
+}
+.pro-head{
+  text-align: center;
+  color: rgb(80, 3, 131);
+   font-family: 'Otomanopee One', sans-serif;
+}
+
+/*----------------Skills--------------*/
+
+.skills{
+  text-align: center;
+  padding-bottom: 2rem;
+  background-color: rgb(255, 255, 255);
+
+}
+.skills .box{
+  height:4rem;
+  border: 0.01rem solid rgb(128, 1, 233);
+  border-radius: 3%;
+  padding:0.625rem;
+  margin-bottom: 1.875rem;
+  background:rgb(241, 241, 241);  
+}
+.skill-head{
+  text-align: center;
+  color: rgb(80, 3, 131);
+   font-family: 'Otomanopee One', sans-serif;
+}
