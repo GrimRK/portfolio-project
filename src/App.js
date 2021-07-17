@@ -5,7 +5,8 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Particles from "react-particles-js";
 import Aboutme from "./components/Aboutme";
-import Education from './components/Education';
+import Education from "./components/Education";
+import Projects from "./components/Projects";
 function App() {
  return(
      <>
@@ -35,6 +36,7 @@ function App() {
     <Header />
     <Aboutme />
     <Education />
+    <Projects />
     </>
  );
   

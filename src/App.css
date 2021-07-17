@@ -198,3 +198,87 @@ transition: .2s ease-in-out;
 .timestamp{
   text-align: center;
 }
+
+/*---------------------PnC-----------------*/
+.pncheader{
+  color: rgb(80, 3, 131) !important;
+  font-family: 'Otomanopee One', sans-serif;
+}
+.portfolio-wrapper{
+  background: white;
+  padding: 3rem 0;
+
+}
+
+.portfolio-image{
+  width: 22rem;
+  border: 1px solid rgb(128, 1, 233);
+  padding: 0 0.5rem;
+}
+.portfolio-image-box{
+  position: relative;
+  margin: 2rem;
+}
+
+/*---------------------Overflow-----------------*/
+.overflow{
+  position: absolute;
+  opacity: 0;
+  background: black;
+  width: 22rem;
+  height: 14.95rem;
+  top: 0;
+  border: 2px rgb(43, 0, 71);
+  cursor: pointer;
+
+}
+
+.portfolio-image-box:hover .overflow{
+opacity: 0.78;
+transition: 0.3s ease-in-out;
+}
+
+.sicon{
+  position: absolute;
+  opacity: 0;
+  margin-left: -11.3rem;
+  margin-top: 7.1rem;
+  color: rgb(128, 1, 233);
+  font-size: 1.5rem;
+}
+
+.portfolio-image-box:hover .sicon{
+  opacity: 100%; 
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/*-------------popup--------------*/
+.pbox-image{
+  width:35rem;
+  padding: 0 0.5rem;
+  
+}
+
+.hyper-link{
+  cursor: pointer;
+  color:rgb(128, 1, 233)
+}
+.hyper-link:hover{
+  cursor:pointer; 
+  color:rgb(43, 0, 71);
+}
+
+@media(max-width: 768px){
+  .pbox-image{
+    width: 100%;
+  }
+}
+@media(max-height: 640px){
+  .popupbox-wrapper{
+    height:100%;
+  }
+  .pbox-image{
+    width: 50%;
+  }
+}
