@@ -63,7 +63,7 @@ nav ul li{
   border-bottom: 0.1875rem solid rgba(255, 255, 255, 0);
   color:white !important;
 }
-.navbar-nav > li > a.active,.navbar-nav > li > a.active:focus{
+.navbar-nav > li > a.active,.navbar-nav > li > a:focus{
   border-bottom: 0.1875rem solid rgba(128, 1, 233, 0.7);
 }
 
@@ -268,6 +268,9 @@ transition: 0.3s ease-in-out;
   cursor:pointer; 
   color:rgb(43, 0, 71);
 }
+.popupbox-wrapper{
+  margin-top:4rem;
+}
 
 @media(max-width: 768px){
   .pbox-image{
@@ -413,4 +416,25 @@ input.form-control{
   text-align: center;
   color: rgb(80, 3, 131);
    font-family: 'Otomanopee One', sans-serif;
+}
+
+/*----------------footer-----------------------*/
+.footer{
+  background:rgb(41, 41, 41);
+  color: rgb(171, 171, 172);
+  padding: 3rem;
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li a{
+  font-size: 2rem;
+}
+.footer ul a{
+  font-size: 3rem;
+  color: rgb(128, 1, 233);
+}
+.footer ul a:hover{
+
+  color: rgb(166, 66, 248);
 }

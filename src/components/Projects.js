@@ -57,7 +57,7 @@ const popupboxconfigverzeo ={
     fadInSpeed:500
 }
     return (
-        <div className="portfolio-wrapper">
+        <div id="projects" className="portfolio-wrapper">
             <div className="container">
                 <h1 className="text-uppercase text-center py-5 pncheader">Projects And Courses</h1>
                 <div className="image-box-wrapper row justify-content-center">

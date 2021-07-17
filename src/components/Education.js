@@ -3,7 +3,7 @@ import React from "react"
 
 const Education = () => {
     return (
-        <div className="education">
+        <div id="education" className="education">
             <div className="py-5">
                 <div className="container">
                     <h1 className="edu-head">Education</h1><br></br>

@@ -10,6 +10,7 @@ import Projects from "./components/Projects";
 import Contacts from './components/Contacts';
 import ProgLang from './components/ProgLang';
 import Skills from './components/Skills';
+import Footer from './components/Footer';
 function App() {
  return(
      <>
@@ -43,6 +44,7 @@ function App() {
     <ProgLang />
     <Skills />
     <Contacts />
+    <Footer />
     </>
  );
   

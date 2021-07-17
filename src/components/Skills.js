@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const Skills = () => {
     return (
-        <div className="skills">
+        <div id="skills" className="skills">
             <div className="py-5">
                 <div className="container">
                     <h1 className="skill-head">Skills</h1><br></br>
