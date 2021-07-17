@@ -282,3 +282,92 @@ transition: 0.3s ease-in-out;
     width: 50%;
   }
 }
+
+/*-----------------Contact--------------*/
+.contacts{
+  background-image: linear-gradient(to bottom, rgb(88, 13, 163) , rgb(59, 3, 40) );
+  padding : 3rem 0;
+  
+}
+.contacts h1{
+  color: rgb(233, 228, 236);
+  font-family: 'Otomanopee One', sans-serif;
+  padding: 1.3rem 0; 
+  text-transform: uppercase;
+}
+.contacts p{
+  color: rgb(171, 171, 172);
+  font-size: 1.3rem;
+}
+
+/*----------------Input---------------*/
+.contacts input,.contacts textarea{
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid rgb(228, 224, 224) ;
+  border-radius: 0 ;
+  color: rgb(228, 224, 224) ;
+  outline: 0 !important;
+  box-shadow: none !important;
+  top : 0;
+  margin-bottom: 1rem;
+}
+
+.contacts .container{
+  padding: 4rem 0;
+}
+
+.contacts input:focus,.contacts textarea:focus{
+  background: transparent;
+  color: rgb(128, 1, 233);
+  border-bottom: 0.125 solid rgb(228, 224, 224);
+}
+.contacts textarea{
+  height: 14.05rem !important;
+  margin: 0 0; 
+}
+
+.contact-btn{
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+.line{
+  position: relative;
+  width: 0;
+  top: -1.14rem;
+  height: 0.15rem;
+  background: rgb(128, 1, 233);
+  display: inline-block;
+}
+input:focus+.line, textarea:focus+.line{
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+input.form-control{
+  margin:0 0;
+
+}
+
+.error-message{
+  color: white;
+  background: rgb(255,0,0);
+  text-align: left;
+}
+.successmsg{
+  font-weight: 900;
+  color:rgb(120,255,0)
+}
+@media(max-width:768px){
+  .contacts{
+    overflow-x: hidden;
+  }
+  .contacts .container{
+    padding: 0 1rem;
+  }
+}

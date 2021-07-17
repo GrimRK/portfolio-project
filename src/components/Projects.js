@@ -3,7 +3,7 @@ import blueblus from "../bluebus.png";
 import verzeo from "../course1.jpg";
 /*-----------fontawesome-----------*/
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faSearchPlus } from '@fortawesome/free-solid-svg-icons';
+import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
 /*-----------fontawesome-----------*/
 import {PopupboxManager,PopupboxContainer} from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css"
