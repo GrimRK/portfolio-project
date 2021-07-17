@@ -11,9 +11,19 @@ import Contacts from './components/Contacts';
 import ProgLang from './components/ProgLang';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
+import {Helmet} from "react-helmet"
+
+
 function App() {
+    
  return(
      <>
+     <Helmet>
+         <title>Aman Kumar</title>
+         
+         
+     </Helmet>
+ 
     <Particles className="particle-canvas"
     params={
         {

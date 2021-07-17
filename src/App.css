@@ -429,6 +429,7 @@ input.form-control{
 }
 .footer ul li a{
   font-size: 2rem;
+  text-align: right;
 }
 .footer ul a{
   font-size: 3rem;
@@ -437,4 +438,7 @@ input.form-control{
 .footer ul a:hover{
 
   color: rgb(166, 66, 248);
+}
+.texty{
+  text-align: right;
 }
