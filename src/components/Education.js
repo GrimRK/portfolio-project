@@ -11,7 +11,7 @@ const Education = () => {
                     <div className="col-md-6 col-sm-6"> 
                     <div className="box">
                       <p className="timestamp">June 2019 - Present</p> 
-                        <h4>Sardar Vallabhbhai National Insititute of Technology, Surat</h4>
+                        <h4>Sardar Vallabhbhai National Institute of Technology, Surat</h4>
                        
                         <p>Bachelor of Technology in Computer Science and Engineering</p>
                                             
