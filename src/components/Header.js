@@ -15,7 +15,7 @@ const Header = () => {
                 backSpeed={60}
                 loop
                 />
-                <a href="https://drive.google.com/u/0/uc?id=1oLkBsdrATT9u-vLlqIo9Q_xJYEvys0lS&export=download" download="resume.pdf" target="_blank" className="btn-main-offer" >Download Resume</a>
+                <a href="https://drive.google.com/u/0/uc?id=1i7ywnMs_iyX37dOqfSlYpwhR6tagyGMv&export=download" download="resume.pdf" target="_blank" className="btn-main-offer" >Download Resume</a>
             </div>
             
         </div>
