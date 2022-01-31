@@ -15,7 +15,7 @@ const Education = () => {
                        
                         <p>Bachelor of Technology in Computer Science and Engineering</p>
                                             
-                        <b>CGPA : </b>8.73(as of July 2021)  
+                        <b>CGPA : </b>8.76(as of Nov 2021)  
                     </div> 
                     </div>
                     <div className="col-md-6 col-sm-6">

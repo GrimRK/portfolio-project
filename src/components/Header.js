@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import axios from "axios";
+
 const Header = () => {
 
 
@@ -15,7 +15,7 @@ const Header = () => {
                 backSpeed={60}
                 loop
                 />
-                <a href="https://drive.google.com/u/0/uc?id=1i7ywnMs_iyX37dOqfSlYpwhR6tagyGMv&export=download" download="resume.pdf" target="_blank" className="btn-main-offer" >Download Resume</a>
+                <a href="https://drive.google.com/file/d/18eKJAlYBPHrWChTE02bmGZ3RexqELPGk/view" rel="noopener noreferrer"  target="_blank" className="btn-main-offer" >View Resume</a>
             </div>
             
         </div>

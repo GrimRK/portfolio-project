@@ -442,3 +442,10 @@ input.form-control{
 .texty{
   text-align: right;
 }
+
+.centerbox {
+  margin: auto;
+  width: 100%;
+  
+  padding: 10px;
+}

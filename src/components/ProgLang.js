@@ -6,7 +6,8 @@ const ProgLang = () => {
             <div className="py-5">
                 <div className="container">
                     <h1 className="pro-head">Programming Language</h1><br></br>
-                    <div className="row">                    
+                    <div className="row ">
+                       
                     <div className="col-md-2 col-xs-4"> 
                     <div className="box">
                       <b>C/C++</b>  
@@ -34,11 +35,17 @@ const ProgLang = () => {
                     </div>
                     <div className="col-md-2 col-xs-4">
                         <div className="box">
+                            <b>JAVA </b>
+                        </div>    
+                    </div>
+                    <div className="col-md-2 col-xs-4 ">
+                        <div className="box">
                             <b>JavaScript </b>
                         </div>    
                     </div>
+                   
                     </div>
-
+                                         
                 </div>
             </div>
             
